@@ -25,10 +25,9 @@ nav {
     padding: 10px 20px;
 
 }
-nav img{
+
+nav img {
     width: 60px;
-    /* background-color: black; */
-    /* padding: 4px; */
     border-radius: 80px;
 }
 
@@ -109,13 +108,13 @@ nav span::after {
 }
 
 .sidebar.active {
- right: 0;
+    right: 0;
 }
 
 .fa-bars {
     display: none ! important;
     color: white;
-    
+
 
 }
 
@@ -155,14 +154,14 @@ nav span::after {
     font-weight: bold;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     position: relative;
-    background-color: #E96B35;
-     border: 2px solid #E96B35;
-     border-radius: 7px;
+    background-color: rgba(0, 0, 255, 0.416);
+    border: 2px solid rgba(0, 0, 0, 0.267);
+    border-radius: 7px;
     color: rgba(255, 255, 255, 0.941);
 }
 
 .hero-btn:hover {
-   
+
     background: #E96B35;
     cursor: pointer;
     transition: 0.5s ease;
@@ -201,7 +200,7 @@ nav span::after {
 .row {
     display: flex;
     gap: 20px;
-} 
+}
 
 .course-col {
     flex-basis: 31%;
@@ -214,7 +213,7 @@ nav span::after {
 }
 
 .course-col:hover {
-    box-shadow: 0  0 10px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
 }
 
 /* <----- OUR CAMPUS -----> */
@@ -233,10 +232,11 @@ nav span::after {
 }
 
 .campus-col {
-    box-shadow:  0 4px 15px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
     padding-left: 15px;
     transition: 0.5s ease;
 }
+
 .campus-col img {
     width: 80%;
     height: 230px;
@@ -281,13 +281,13 @@ h4 {
 .campus p {
     font-size: 20px;
     font-weight: bolder;
-    color:rgba(255, 255, 255, 0.945);
+    color: rgba(255, 255, 255, 0.945);
     font-family: 'Merriweather', serif;
     ;
 }
 
 /* <-----OUR FACILITIES -----> */
-.facilities{
+.facilities {
     width: 80%;
     margin: 100px auto;
     text-align: center;
@@ -297,76 +297,85 @@ h4 {
     background-color: rgba(0, 0, 0, 0.144);
 }
 
-.row-3{
-display: flex;
-gap: 25px;
-margin: 15px;
+.row-3 {
+    display: flex;
+    gap: 25px;
+    margin: 15px;
 }
 
-.facilities-col{
-width: 100%;
-line-height: 22px;
+.facilities-col {
+    width: 100%;
+    line-height: 22px;
 }
-.facilities-col h3{
-    margin-bottom:10px;
+
+.facilities-col h3 {
+    margin-bottom: 10px;
 }
-.facilities h3{
+
+.facilities h3 {
     margin-bottom: 10px;
     font-size: 20px;
     color: #E96B35;
 }
-.facilities-col img{
+
+.facilities-col img {
     width: 100%;
     margin-bottom: 15px;
-    transition: 0.5s ease ;
-
+    transition: 0.5s ease;
 }
-.facilities-col img:hover{
-transform: scale(1.08);
-filter: brightness(70%) sepia(1) hue-rotate(10deg);
+
+.facilities-col img:hover {
+    transform: scale(1.08);
+    filter: brightness(70%) sepia(1) hue-rotate(10deg);
 }
 
 /* <-----TESTIMONIALS -----> */
-.testimonial{
+.testimonial {
     width: 80%;
-    margin:  auto;
+    margin: auto;
     padding-top: 40px;
     text-align: center;
 }
-.row-4{
-    display: flex;
-     gap: 30px;
-}
-.testimonial-col{
-   width: 100%;
-   background-color: #e96b356f;
-    
-}
-.testimonial-col img{
-      width: 50px;
-      height: 50px;
 
-       text-align: left;
-       border-radius: 50%;
+.row-4 {
+    display: flex;
+    gap: 30px;
 }
-.fa-star{
-color: #E96B35;
+
+.testimonial-col {
+    width: 100%;
+    background-color: #e96b356f;
 }
-.testimonial-col h4{
+
+.testimonial-col img {
+    width: 50px;
+    height: 50px;
+    text-align: left;
+    border-radius: 50%;
+}
+
+.fa-star {
+    color: #E96B35;
+}
+
+.testimonial-col h4 {
     color: rgba(255, 255, 255, 0.765);
     font-size: 20px;
     font-weight: bold;
 }
-.testimonial-col h2{
+
+.testimonial-col h2 {
     font-weight: bold;
     color: #74A0AA;
     font-size: 20px;
 }
-.testimonial p{
+
+.testimonial p {
     font-weight: 600;
     margin-bottom: 10px;
 }
-.testimonial h3{
+
+.testimonial h3 {
     color: #E96B35;
     font-weight: bold;
     margin-bottom: 4px;
@@ -375,82 +384,246 @@ color: #E96B35;
 
 
 /* <----- CALL TO ACTION -----> */
-.cta{
+.cta {
     width: 100%;
-    height:80vh ;
+    height: 80vh;
     margin: 100px auto;
     padding: 16%;
     text-align: center;
-    background-image:linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(./graduation\ celebration.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(./graduation\ celebration.png);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: cover;
+    background-position: center;
     overflow: hidden;
 }
-.cta h3{
+
+.cta h3 {
     color: #EBFCFF;
-    margin-bottom: -20px ;
+    margin-bottom: -20px;
     text-align: center;
     padding: 30px;
     font-size: 20px;
     font-weight: bolder;
 }
-.cta p{
-color: rgba(255, 255, 255, 0.852);
-font-size: 18px;
-font-weight: bold;
-margin-bottom: 15px;
+
+.cta p {
+    color: rgba(255, 255, 255, 0.852);
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+/*<----- about us page -----> */
+.sub-Header {
+    width: 100%;
+    height: 70vh;
+    margin-bottom: 50px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(./graduation\ celebration.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.sub-Header h1 {
+    margin-bottom: 200px;
+}
+
+.about-us {
+    width: 80%;
+    margin: auto;
+}
+
+.row-5 {
+    display: flex;
+    margin-bottom: 100px;
+    padding-left: 30px;
+}
+
+.about-col1 {
+    margin-top: 10px;
+}
+
+.about-col1 h1 {
+    margin-bottom: 20px;
+}
+
+.about-col1 p {
+    margin-bottom: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.about-col1 a {
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+}
+
+.about-col img {
+    width: 100%;
+}
+
+/*<----- BLOG CONTENT -----> */
+.blog {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+
+.row-6 {
+    margin-bottom: 100px;
+    margin: auto;
+    display: flex;
+    gap: 30px;
+}
+
+.comment-box {
+    width: 100%;
+    margin: 100px 0;
+    box-shadow: 3px 0px 10px rgba(0, 0, 0, 0.21);
+    padding: 20px;
+}
+
+.comment-box h2 {
+    text-align: center;
+}
+
+.comment-box input {
+    padding: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    outline: none;
+    background: #f0f0f0;
+    width: 100%;
+    margin: 10px 0;
+}
+
+.comment-box textarea {
+    width: 100%;
+    padding: 60px;
+    font-size: 15px;
+    font-weight: bold;
+    outline: none;
+    background: #f0f0f0;
+    margin: 10px 0;
+}
+
+.blog-left {
+    flex-basis: 70%;
+}
+
+.blog-left img {
+    width: 100%;
+    max-width: 400px;
+}
+
+.blog-left h2 {
+    color: #e96b35c4;
+    margin: 15px;
+}
+
+.blog-left p {
+    margin: 10px 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+.blog-right {
+    flex-basis: 30%;
+    margin-bottom: 50px;
+
+}
+
+.blog-right div {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0;
+    padding: 3px 0;
+    box-shadow: 3px 0px 10px rgba(0, 0, 0, 0.21);
+}
+
+.blog-right h3 {
+    text-align: center;
+    background-color: #e96b35ca;
+    color: white;
+    padding: 10px;
+    margin: 15px;
 }
 
 /*<-----FOOTER ----->  */
-footer{
+footer {
     width: 100%;
     text-align: center;
 }
-.footer p{
+
+.footer p {
     margin: auto;
     color: #74A0AA;
     text-align: center;
-    font-size: 16px;
+    font-size: 17px;
     font-weight: bolder;
     padding: 5px;
 
 
 }
-.icons{
+
+.icons {
     margin: auto;
     text-align: center;
     padding: 5px;
     color: #E96B35;
 
 }
-.fa-heart{
+
+.fa-heart {
     color: #E96B35;
 }
+
+
 
 @media (max-width:1020px) {
 
     .nav-menu {
         display: none;
     }
-    .row {
+
+    .row,
+    .row-2,
+    .row-3,
+    .row-4,
+    .row-5,
+    .row-6 {
         flex-direction: column;
         top: 3px;
     }
-    .row-2 {
-        flex-direction: column;
 
+    .fa-bars {
+        display: block ! important;
+        ;
     }
-    .row-3 {
-        flex-direction: column;
 
+    .about-col img {
+        margin-top: 100px 0;
     }
-    .row-4{
-        flex-direction: column;
+
+    .footer p {
+        font-size: 20px;
     }
-    .fa-bars{
-        display: block ! important;;
+
+    .blog {
+        width: 90%;
     }
+
+    .blog-left img {
+        max-width: 100%;
+    }
+
+    .comment-box {
+        margin: 100px 0;
+    }
+
+
 }
 
 @media (max-width:600px) {
@@ -465,7 +638,8 @@ footer{
     .course p {
         font-size: 16px;
     }
-    .campus h3{
+
+    .campus h3 {
         color: black;
         margin-bottom: 10px;
         font-size: 20px;
@@ -474,14 +648,21 @@ footer{
     nav span {
         font-size: 19px;
     }
-    h4{
-      font-size:20px;  
-    }
-    nav img{
-        width: 42px;
-    }
-    .footer p{
+
+    h4 {
         font-size: 20px;
     }
-    
+
+    nav img {
+        width: 42px;
+    }
+
+    .about-col img {
+        margin-top: 30px;
+    }
+
+    .footer p {
+        font-size: 20px;
+    }
+
 }
