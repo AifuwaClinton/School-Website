@@ -482,7 +482,7 @@ h4 {
 .comment-box {
     width: 100%;
     margin: 100px 0;
-    box-shadow: 3px 0px 10px rgba(0, 0, 0, 0.21);
+    box-shadow: 0px 6px  20px rgba(0, 0, 0, 0.21);
     padding: 20px;
 }
 
@@ -490,24 +490,26 @@ h4 {
     text-align: center;
 }
 
-.comment-box input {
+.comment-box input, .t {
     padding: 10px;
     font-size: 15px;
     font-weight: bold;
     outline: none;
     background: #f0f0f0;
-    width: 100%;
+    width: 80%;
     margin: 10px 0;
+     border: 1px solid #ccc;
 }
 
 .comment-box textarea {
-    width: 100%;
+    width: 80%;
     padding: 60px;
     font-size: 15px;
     font-weight: bold;
     outline: none;
     background: #f0f0f0;
     margin: 10px 0;
+    border: 1px solid #ccc;
 }
 
 .blog-left {
@@ -552,6 +554,82 @@ h4 {
     margin: 15px;
 }
 
+/* <----- Contact us page -----> */
+
+.location {
+    width: 80%;
+    margin: auto;
+}
+
+iframe {
+    width: 100%;
+}
+
+.contact {
+    width: 80%;
+    margin: auto;
+}
+.row-7{
+    width: 80%;
+    display: flex;
+     justify-content: space-between;
+     gap: 40px;
+     margin: 50px 0px;
+     
+}
+
+.contact-left div  {
+    flex-basis: 50%;
+    font-size: 17px;
+    margin: 20px 0;
+    gap: 5px;
+    display: flex;
+    box-shadow: 2px 0px 10px rgba(0, 0, 0, 0.2) ;
+    padding: 20px 0px;
+}
+.contact-right {
+   flex-basis: 50%;
+   box-shadow: 10px 0px 10px rgba(0, 0, 0, 0.21) ;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-weight: bold;
+}
+.contact-right h2{
+    text-align: center;
+    margin-bottom: 20px;
+   color: #E96B35;
+
+}
+.contact-right input{
+    margin: 15px 0;
+}
+.contact-box input, .contact-box textarea{
+ width: 100%;
+padding: 10px;
+outline: none;
+ background: #f0f0f0;
+ border: 1px solid #ccc;
+
+}
+.fa {
+    color: #e96b35ea;
+    margin-top: 18px;
+}
+.contact-us{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+.contact-us h2{
+    margin: 5px 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.contact-us p{
+    margin-bottom: 20px ;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+
 /*<-----FOOTER ----->  */
 footer {
     width: 100%;
@@ -594,7 +672,9 @@ footer {
     .row-3,
     .row-4,
     .row-5,
-    .row-6 {
+    .row-6,
+    .row-7
+    {
         flex-direction: column;
         top: 3px;
     }
