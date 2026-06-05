@@ -368,7 +368,9 @@ h4 {
     font-weight: bold;
     color: #74A0AA;
     font-size: 20px;
+    /* text-align: center; */
 }
+
 
 .testimonial p {
     font-weight: 600;
@@ -417,7 +419,7 @@ h4 {
 .sub-Header {
     width: 100%;
     height: 70vh;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(./graduation\ celebration.png);
     background-position: center;
     background-size: cover;
@@ -435,7 +437,7 @@ h4 {
 
 .row-5 {
     display: flex;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     padding-left: 30px;
 
 }
@@ -465,6 +467,85 @@ h4 {
     width: 100%;
 }
 
+
+/*<---- MISSION-BOX */
+.mission-col {
+    flex-basis: 36%;
+    display: flex;
+    text-align: center;
+    gap: 30px;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+.mission{
+    box-shadow: 4px 0px 10px rgba(0, 0, 0, 0.3);
+    background-color: #cccccc5c;
+    padding: 20px;
+
+}
+.mission h2{
+    margin: 10px 0;
+}
+
+.mission p{
+    margin: 10px 0;
+}
+.pat{
+     box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.3);
+     background-color: #cccccc5c;
+     padding: 20px;
+
+}
+
+.pat h2{
+    margin: 10px 0;
+
+}
+.pat p{
+    margin: 10px 0;
+    font-size: 17px;
+
+}
+
+/* <-----VISION_BOX-----> */
+
+.vision-col {
+    margin-bottom: 50px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 50px;
+}
+.vision-col div{
+     box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.3);
+     background-color: #cccccc5c;
+     padding: 20px;
+}
+.vision-col h2{
+color: rgba(0, 0, 255, 0.422);
+}
+
+/* <----- STAT-BOX */
+.stats-box .stats {
+    display: flex;
+    gap: 30px;
+    text-align: center;
+    margin-bottom: 100px;
+    
+}
+.stats div{
+   box-shadow: 4px 0px 10px rgba(0, 0, 0, 0.3);
+    background-color: #cccccc5c;
+    padding: 20px;
+}
+
+.stats-box h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+
 /*<----- BLOG CONTENT -----> */
 .blog {
     width: 70%;
@@ -482,7 +563,7 @@ h4 {
 .comment-box {
     width: 100%;
     margin: 100px 0;
-    box-shadow: 0px 6px  20px rgba(0, 0, 0, 0.21);
+    box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.21);
     padding: 20px;
 }
 
@@ -490,7 +571,7 @@ h4 {
     text-align: center;
 }
 
-.comment-box input, .t {
+.comment-box input{
     padding: 10px;
     font-size: 15px;
     font-weight: bold;
@@ -498,7 +579,7 @@ h4 {
     background: #f0f0f0;
     width: 80%;
     margin: 10px 0;
-     border: 1px solid #ccc;
+    border: 1px solid #ccc;
 }
 
 .comment-box textarea {
@@ -569,62 +650,72 @@ iframe {
     width: 80%;
     margin: auto;
 }
-.row-7{
+
+.row-7 {
     width: 80%;
     display: flex;
-     justify-content: space-between;
-     gap: 40px;
-     margin: 50px 0px;
-     
+    justify-content: space-between;
+    gap: 40px;
+    margin: 50px 0px;
+
 }
 
-.contact-left div  {
+.contact-left div {
     flex-basis: 50%;
     font-size: 17px;
     margin: 20px 0;
     gap: 5px;
     display: flex;
-    box-shadow: 2px 0px 10px rgba(0, 0, 0, 0.2) ;
+    box-shadow: 2px 0px 10px rgba(0, 0, 0, 0.2);
     padding: 20px 0px;
 }
+
 .contact-right {
-   flex-basis: 50%;
-   box-shadow: 10px 0px 10px rgba(0, 0, 0, 0.21) ;
-   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-   font-weight: bold;
+    flex-basis: 50%;
+    box-shadow: 10px 0px 10px rgba(0, 0, 0, 0.21);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
 }
-.contact-right h2{
+
+.contact-right h2 {
     text-align: center;
     margin-bottom: 20px;
-   color: #E96B35;
+    color: #E96B35;
 
 }
-.contact-right input{
+
+.contact-right input {
     margin: 15px 0;
 }
-.contact-box input, .contact-box textarea{
- width: 100%;
-padding: 10px;
-outline: none;
- background: #f0f0f0;
- border: 1px solid #ccc;
+
+.contact-box input,
+.contact-box textarea {
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    background: #f0f0f0;
+    border: 1px solid #ccc;
 
 }
+
 .fa {
     color: #e96b35ea;
     margin-top: 18px;
 }
-.contact-us{
+
+.contact-us {
     width: 80%;
     margin: auto;
     text-align: center;
 }
-.contact-us h2{
+
+.contact-us h2 {
     margin: 5px 0px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-.contact-us p{
-    margin-bottom: 20px ;
+
+.contact-us p {
+    margin-bottom: 20px;
     font-family: 'Times New Roman', Times, serif;
     font-size: 18px;
 }
@@ -673,8 +764,7 @@ footer {
     .row-4,
     .row-5,
     .row-6,
-    .row-7
-    {
+    .row-7 {
         flex-direction: column;
         top: 3px;
     }
@@ -703,6 +793,13 @@ footer {
     .comment-box {
         margin: 100px 0;
     }
+
+    .mission-box .mission-col,
+    .vision-box .vision-col,
+    .stats-box .stats{
+        flex-direction: column;
+    }
+
 
 
 }

@@ -81,11 +81,13 @@
                     and lifelong learning while supporting students every step of their academic journey.
                 </p>
 
-                <form action="" class="comment-box">
+                <form action="https://api.web3forms.com/submit" method="post" class="comment-box">
+                    <input type="hidden" name="access_key" value="78f7d423-7559-4dd5-8da7-51a28937a992">
+            
                     <h2>Leave a Comment</h2>
-                    <input type="text" placeholder="Enter  Name"><br>
-                    <input type="text" placeholder="Enter Email">
-                    <textarea name="" id="" placeholder="Your Comment"></textarea>
+                    <input type="text" name="name" placeholder="Enter  Name"><br>
+                    <input type="text" name="email" placeholder="Enter Email">
+                    <textarea name="comment"  placeholder="Your Comment"></textarea>
                     <button class="hero-btn">Post Comment</button>
                 </form>
             </div>
