@@ -13,13 +13,13 @@
 
 <body>
 
-    <section class="Header">
+    <section class="Header anim">
         <nav>
             <a href="index.html"><img src="./crestora icon.png" alt=""></a>
             <span>CRESTORA</span>
 
             <div class="nav-links">
-                <ul class="sidebar">
+                <ul class="sidebar anim">
                     <i class="fa-solid fa-x fa-2x  " onclick="hideMenu()"></i>
                     <li><a href="">HOME</a></li>
                     <li><a href="about.html">ABOUT</a></li>
@@ -41,12 +41,12 @@
             </div>
         </nav>
         <div class="text-box">
-            <h1>Empowering Minds</h1>
-            <p>We are committed to providing quality education that nurtures creativity, builds confidence,<br> and
+            <h1 class="anim">Empowering Minds</h1>
+            <p class="anim">We are committed to providing quality education that nurtures creativity, builds confidence,<br> and
                 prepares students for success in a rapidly changing world. <br> Our mission is to inspire learning,
                 encourage innovation, and shape responsible future leaders.</p>
 
-            <a href="about.html" class="hero-btn">Visit Us To Know More</a>
+            <a href="about.html" class="hero-btn anim">Visit Us To Know More</a>
         </div>
     </section>
 
@@ -227,6 +227,9 @@
         function hideMenu() {
             const sidebar = document.querySelector(".sidebar").classList.remove("active");
         }
+
+
+        
     </script>
 </body>
 
