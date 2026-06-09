@@ -762,13 +762,11 @@ iframe {
     width: 100%;
     padding: 10px;
     outline: none;
-    background: #f0f0f0;
     border: 1px solid #ccc;
-     background-color: #74a0aaa6
-
-
+    background: #cccccc5c;
+    
+    
 }
-
 .fa {
     color: #e96b35ea;
     margin-top: 18px;
