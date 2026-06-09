@@ -9,7 +9,7 @@
 .Header {
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4, 4, 208, 0.144)),
+    background-image: linear-gradient(rgba(0, 10, 0, 0.3),rgba(10, 50, 70, 0.3)),
   url("./jane-last-4ZZaHCFXcRo-unsplash.jpg" ) ;
     background-position: center;
     background-repeat: no-repeat;
@@ -26,8 +26,6 @@ nav {
     position: fixed;
     z-index: 999;
     background-color: rgba(0, 0, 0, 0.8);
-     
-   
 }
 
 nav img {
@@ -167,7 +165,7 @@ nav span::after {
     padding: 10px 20px;
     font-size: 18px;
     font-weight: bold;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
     position: relative;
     background-color: rgba(0, 0, 255, 0.416);
     border: 2px solid rgba(0, 0, 0, 0.267);
@@ -180,7 +178,7 @@ nav span::after {
     background: #E96B35;
     cursor: pointer;
     transition: 0.5s ease;
-animation-delay: 2s;
+    animation-delay: 2s;
 
 }
 
@@ -205,7 +203,6 @@ animation-delay: 2s;
 .course h3 {
     font-family: 'Merriweather', serif;
     font-size: 27px;
-    color: rgba(255, 255, 255, 0.922);
 }
 
 .course p {
@@ -231,7 +228,7 @@ animation-delay: 2s;
 
 .course-col {
     flex-basis: 31%;
-    background: #74a0aac4;
+    background: #74a0aa53;
     border-radius: 10px;
     font-size: 18px;
     font-weight: bold;
@@ -445,7 +442,7 @@ h4 {
     width: 100%;
     height: 70vh;
     margin-bottom: 20px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(./graduation\ celebration.png);
+    background-image: linear-gradient(rgba(0, 0, 100, 0.032), rgba(0, 100, 100, 0.11)), url(./graduation\ celebration.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -474,6 +471,7 @@ h4 {
 .about-col1 h1 {
     margin-bottom: 20px;
     animation-delay: 1s;
+    color: #74A0AA;
 }
 
 .about-col1 p {
@@ -566,7 +564,7 @@ h4 {
      padding: 20px;
 }
 .vision-col h2{
-color: rgba(0, 0, 255, 0.422);
+    color: #74A0AA
 }
 
 /* <----- STAT-BOX */
@@ -589,6 +587,8 @@ color: rgba(0, 0, 255, 0.422);
 .stats-box h2 {
     text-align: center;
     margin-bottom: 20px;
+    color: #74A0AA
+
 }
 
 
@@ -613,6 +613,8 @@ color: rgba(0, 0, 255, 0.422);
     box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.21);
     padding: 20px;
     animation-delay: 5s;
+    background-color: #74a0aaa6
+
 }
 
 .comment-box h2 {
@@ -624,7 +626,7 @@ color: rgba(0, 0, 255, 0.422);
     font-size: 15px;
     font-weight: bold;
     outline: none;
-    background: #f0f0f0;
+    background-color: #74A0AA;
     width: 80%;
     margin: 10px 0;
     border: 1px solid #ccc;
@@ -636,13 +638,15 @@ color: rgba(0, 0, 255, 0.422);
     font-size: 15px;
     font-weight: bold;
     outline: none;
-    background: #f0f0f0;
+    background: #74A0AA;
     margin: 10px 0;
     border: 1px solid #ccc;
 }
 
 .text-box h1{
     animation-delay: 0.5s;
+    color: #74A0AA
+
 }
 
 .blog-left {
@@ -666,12 +670,17 @@ color: rgba(0, 0, 255, 0.422);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bold;
     animation-delay: 3.5s;
+      background:  #74a0aa42;
+        box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.21);
+        border: 1px solid #ccc;  
+        padding: 20px;     
 }
 
 .blog-right {
     flex-basis: 30%;
     margin-bottom: 50px;
  animation-delay: 6s;
+  
 }
 
 .blog-right div {
@@ -680,6 +689,7 @@ color: rgba(0, 0, 255, 0.422);
     margin: 30px 0;
     padding: 3px 0;
     box-shadow: 3px 0px 10px rgba(0, 0, 0, 0.21);
+    background: #74a0aa3b;
 }
 
 .blog-right h3 {
@@ -724,6 +734,7 @@ iframe {
     display: flex;
     box-shadow: 2px 0px 10px rgba(0, 0, 0, 0.2);
     padding: 20px 0px;
+
 }
 
 .contact-right {
@@ -731,6 +742,8 @@ iframe {
     box-shadow: 10px 0px 10px rgba(0, 0, 0, 0.21);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: bold;
+     background-color: #74a0aaa6
+
 }
 
 .contact-right h2 {
@@ -751,6 +764,8 @@ iframe {
     outline: none;
     background: #f0f0f0;
     border: 1px solid #ccc;
+     background-color: #74a0aaa6
+
 
 }
 
