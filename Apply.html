@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive School Website</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <section class="sub-Header">
+        <nav>
+            <a href="index.html"><img src="./crestora icon.png" alt=""></a>
+            <span>CRESTORA</span>
+
+            <div class="nav-links">
+                <ul class="sidebar">
+                    <i class="fa-solid fa-x fa-2x  " onclick="hideMenu()"></i>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+
+
+                <ul class="nav-menu">
+
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+                <i class="fa-solid fa-bars fa-2x" onclick="showMenu()"></i>
+            </div>
+        </nav>
+        <div class="Apply-hero">
+            <h1>Apply to Crestora University</h1>
+            <p>Start your academic journey today. Fill out the form below to begin your application.</p>
+        </div>
+    </section>
+
+    <!--- APPLICATION--->
+
+    <section class="apply-section">
+        <form action="https://api.web3forms.com/submit" method="post" class="apply-form">
+            <input type="hidden" name="access_key" value="78f7d423-7559-4dd5-8da7-51a28937a992">
+
+            <label>Full Name</label>
+            <input type="text" name="name" placeholder="Enter your full name" required>
+
+            <label>Email Address</label>
+            <input type="email" name="email" placeholder="Enter your email" required>
+
+            <label>Phone Number</label>
+            <input type="text" name="phone number" placeholder="Enter your phone number" required>
+
+            <label>Choose Program</label>
+            <select name="Program">
+                <option>Undergraduate</option>
+                <option>Postgraduate</option>
+                <option>Certificate Courses</option>
+            </select>
+
+            <label>Why do you want to join?</label>
+            <textarea name="message" placeholder="Write your message..." rows="6"></textarea>
+
+            <button type="submit">Submit Application</button>
+
+        </form>
+    </section>
+
+    <!----- FOOTER ----->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>we are dedicated to empowering students through quality education, innovative learning, and a supportive
+            community. <br> Our mission is to inspire xcellence and drive meaningful change.</p>
+        <div class="icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+            <i class=" fa-brands fa-youtube"></i>
+        </div>
+        <hr>
+        <p>© 2026 Crestora University • Made with ❤️</p>
+        <!-- <p>Made with  <i class="fa fa-heart"></i>by Crestora University</p> -->
+    </section>
+
+
+    <!----- Javascript for Toggle Menu ----->
+    <script>
+        function showMenu() {
+            const sidebar = document.querySelector(".sidebar").classList.add("active");
+        }
+        function hideMenu() {
+            const sidebar = document.querySelector(".sidebar").classList.remove("active");
+        }
+    </script>
+</body>
+
+</html>
